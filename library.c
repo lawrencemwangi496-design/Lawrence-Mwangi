@@ -27,7 +27,7 @@ if(library==NULL){
      for(int i=0;i<number_books;i++){
      fgets(book,20,stdin);
      book[strcspn(book,"\n")]=0;
-     fprintf(library,"%s",book);
+     fprintf(library,"%s\n",book);
      
     }
 
